@@ -1,0 +1,40 @@
+.background    { background-image: url("http://www.publicdomainpictures.net/pictures/170000/velka/caves-background-4.jpg");
+                 background-size: 100%;
+                 opacity: 0.95;
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;        }
+.lava          { background-image: url("https://sftextures.com/texture/6784/0/6783/burning-lava-seamless-texture-bright-hot-melted-red-rock-yellow-magma-background-image-256x256.jpg");
+                 background-size: 600%; }
+.wall          { background-image:  url("https://c.pxhere.com/photos/12/9b/stones_rocks_background_rock_nature_gray-1121189.jpg!d");
+                 background-size: 400%;}
+.floater       { background: yellow;
+                 border-top: solid white;}
+
+.actor  { position: absolute;  }
+.player { background-color: #f9fbff;}
+.coin {
+       background-image: url("http://www.publicdomainpictures.net/pictures/100000/velka/crystal-blue-burst.jpg");
+       background-size: 200%;
+
+       filter:hue-rotate(100deg);
+       filter:brightness(250%);}
+.Meteor {background: red;
+    background: -webkit-linear-gradient(red, yellow);
+    background: -o-linear-gradient(red, yellow);
+    background: -moz-linear-gradient(red, yellow);
+    background: linear-gradient(red, yellow);}
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  opacity: 0.3;
+}
+.won .player {
+  box-shadow: -6px -6px 8px white, 6px 6px 8px white, -6px 6px 8px white, 6px -6px 8px white;
+}
