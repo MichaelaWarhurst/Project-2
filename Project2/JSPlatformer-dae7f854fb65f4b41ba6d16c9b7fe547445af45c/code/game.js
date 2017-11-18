@@ -597,10 +597,10 @@ function runGame(plans, Display) {
       else if (n < plans.length - 1)
         startLevel(n + 1);
       else
-        console.log("You win!");
+       alert("CONGRATULATIONS! YOUVE BEAT LAVA RUINS!!!");
     });
 
-    /////////////////////////////////////
+    //////
   }
   startLevel(0);
 }
